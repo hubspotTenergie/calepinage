@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Calepinage",
+    "uid": "calepinage_card",
+    "location": "crm.record.sidebar",
+    "module": {
+      "file": "CalepinageCard.jsx"
+    },
+    "objectTypes": [{ "name": "deals" }]
+  }
+}

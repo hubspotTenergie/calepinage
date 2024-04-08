@@ -1,0 +1,24 @@
+{
+  "name": "Composant : Calepinage (v 0.1.0)",
+  "description": "L’outil de calepinage existant dans Amanda permet de dessiner le projet de centrale et de calculer un productible.",
+  "uid": "calepinage_card",
+  "scopes": [
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write",
+    "crm.objects.deals.read",
+    "crm.objects.deals.write",
+    "crm.objects.owners.read",
+    "crm.objects.users.read",
+    "settings.users.teams.read"
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/calepinage-card.json"
+        }
+      ]
+    }
+  }
+}
